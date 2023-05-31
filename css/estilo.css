@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+/* iNICIO DO CABECALHO*/
 .cabecalho {
     background-color: #A0D8B3;
     display: flex;
@@ -41,11 +43,16 @@
 }
 
 
+/* iNICIO DO CONTEUDO*/
 .conteudo {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0% 15%;
+}
+
+.conteudo div{
+    padding-top: 5%;
 }
 
 .conteudo p {
@@ -54,5 +61,12 @@
 }
 
 
+/* BREAKPOINTS*/
+@media(max-width:1920px){
 
-  
+    .cabecalho a {
+        font-size: 1em;
+        padding: 5% 2%;
+    }
+}
+
