@@ -7,7 +7,7 @@
 
 /* iNICIO DO CABECALHO*/
 .cabecalho {
-    background-color: #A0D8B3;
+    background-color: #609966;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +48,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0% 15%;
+    margin: 0px;
 }
 
 .conteudo div{
@@ -59,6 +59,42 @@
     text-align: justify;
     padding-top: 5%;
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 480px;
+    height: 560px;
+    margin: 50px;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .card h2 {
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  .card img {
+    width: 100%;
+
+  }
+
+  .card:hover {
+    border: 1px solid #ccc;
+  }
+  .info {
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+  }
+
+  .info img {
+    width: 328px;
+    height: 182px;
+  }
 
 
 /* BREAKPOINTS*/
