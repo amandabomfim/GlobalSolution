@@ -5,7 +5,7 @@
 }
 
 
-/* iNICIO DO CABECALHO*/
+/******************** iNICIO DO CABECALHO*/
 .cabecalho {
     background-color: #609966;
     display: flex;
@@ -43,7 +43,7 @@
 }
 
 
-/* iNICIO DO CONTEUDO*/
+/********************  iNICIO DO CONTEUDO*/
 .conteudo {
     display: flex;
     justify-content: center;
@@ -96,8 +96,26 @@
     height: 182px;
   }
 
+.conteudo-2 h1 {
+  border: 1px solid red;
+    max-width: 70%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 250px;
+    text-align: end;
+}
 
-/* BREAKPOINTS*/
+.imagem {
+  position: absolute;
+  top: 200px; 
+  left: 640px; 
+  width: 200px; 
+  height: 200px;
+  
+}
+
+
+/********************  BREAKPOINTS*/
 @media(max-width:1920px){
 
     .cabecalho a {
