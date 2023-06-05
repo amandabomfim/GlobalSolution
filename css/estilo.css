@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -96,23 +97,29 @@
     height: 182px;
   }
 
-.conteudo-2 h1 {
-  border: 1px solid red;
-    max-width: 70%;
-    justify-content: center;
-    text-align: center;
-    padding-top: 250px;
-    text-align: end;
+.conteudo-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto; 
 }
 
-.imagem {
-  position: absolute;
-  top: 200px; 
-  left: 640px; 
-  width: 200px; 
-  height: 200px;
-  
+.conteudo-2 h1 {
+    padding: 10px 0;
 }
+
+.conteudo-2 p {
+  margin: 8px;
+}
+
+.negrito {
+  font-weight: bold;
+
+}
+
 
 
 /********************  BREAKPOINTS*/
