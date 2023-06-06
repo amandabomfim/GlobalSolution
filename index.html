@@ -5,16 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="./js/script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 <body>
         <header class="cabecalho">
-        
+
             <figure>
-                <img src="./imgs/logo-infinitech.png" alt="logo">
+                <img src="./imgs/Logo.png" alt="logo">
             </figure>
 
-            <h1>Página inicial</h1>
-        
             <nav>
                 <a href="./pages/agricultura-sustentavel.html">Agricultura Sustentável</a>
                 <a href="./pages/ia-generativa.html">Inteligência Artificial Generativa</a>
@@ -24,5 +29,63 @@
             </nav>
         
         </header>
+
+        <section class="conteudo">
+
+
+            <div class="card" onclick="window.location.href='./pages/agricultura-sustentavel.html';">
+
+                <div class="info">
+                    <figure>
+                        <img src="./imgs/agricultura.jpg" alt="Agricultura Sustentável">
+                        <figcaption></figcaption>
+                    </figure>  
+                </div>
+                    
+                <h2>Agricultura Sustentável</h2>
+                <p>A agricultura sustentável é um conceito cada vez mais relevante em nossa sociedade, à medida que enfrentamos desafios crescentes em relação à segurança alimentar e à preservação do meio ambiente.Essa abordagem visa atender às necessidades presentes sem comprometer a capacidade das gerações futuras de suprir suas próprias demandas. Nesta página, exploraremos a importância desse modelo agrícola e como ele contribui para um futuro mais sustentável para todos.</p>
+                
+            </div>
+
+            <div class="card" onclick="window.location.href='./pages/ia-generativa.html';">
+
+                <div class="info">
+                    <figure>
+                        <img src="./imgs/ia.jpeg" alt="Inteligência Artificial Generativa">
+                    </figure>
+                  </div>
+
+                <h2>Inteligência Artificial Generativa</h2>
+                <p>A Inteligência Artificial Generativa está revolucionando a maneira como interagimos com a tecnologia e impulsionando a criatividade humana a novos patamares.  Ao explorar o potencial da Inteligência Artificial Generativa neste contexto, estamos abrindo caminho para uma agricultura mais sustentável e um mundo com menos fome.Descubra como a IA generativa está se tornando uma aliada poderosa na construção de um futuro mais sustentável para todos.</p>
+            </div>
+
+            <div class="card" onclick="window.location.href='./pages/modelos-cultivo.html';">
+
+                <div class="info">
+                    <figure>
+                        <img src="./imgs/modelos.jpg" alt="Modelos de cultivo">
+                    </figure>
+                  </div>
+
+                <h2>Modelos de cultivo</h2>
+                    <p>Os modelos de cultivo desempenham um papel fundamental na luta contra a fome e na busca por uma segurança alimentar global. A maneira como cultivamos nossos alimentos tem um impacto direto na disponibilidade e na qualidade dos produtos alimentícios. Saiba como esses modelos podem aumentar a produtividade, conservar recursos naturais preciosos, promover a resiliência e, o mais importante, contribuir significativamente para a diminuição da fome em todo o mundo.</p>
+            </div>
+
+            <div class="card" onclick="window.location.href='./pages/desperdicio-alimentar.html';">
+
+                <div class="info">
+                    <figure>
+                        <img src="./imgs/desperdicio.jpg" alt="Desperdício Alimentar">
+                        <figcaption></figcaption>
+                    </figure>  
+                </div>
+                    
+                <h2>Desperdício Alimentar</h2>
+                <p>O desperdício alimentar é um problema urgente e global que precisa de nossa atenção imediata. Milhões de toneladas de alimentos são jogados fora todos os anos, enquanto muitas pessoas ao redor do mundo sofrem com a fome e a insegurança alimentar.Nesta página, vamos explorar o impacto do desperdício de alimentos em nossa sociedade e compartilhar dicas e receitas criativas para reaproveitar alimentos que geralmente são descartados.</p>
+                
+            </div>
+
+
+        </section>
 </body>
 </html>

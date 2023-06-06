@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/******************** iNICIO DO CABECALHO*/
+.cabecalho {
+    background-color: #609966;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+
+}
+
+.cabecalho nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+    font-weight: bold;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    font-size: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000;
+    text-align: center;
+    padding: 5% 3%;
+}
+
+.cabecalho img {
+    width: 180px;
+    height: 180px;
+}
+
+.cabecalho a:hover{
+    background-color: #E5F9DB;
+    color: #000000;
+}
+
+
+/********************  iNICIO DO CONTEUDO*/
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.conteudo div{
+    padding-top: 5%;
+}
+
+.conteudo p {
+    text-align: justify;
+    padding-top: 5%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 480px;
+    height: 560px;
+    margin: 50px;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .card h2 {
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  .card img {
+    width: 100%;
+
+  }
+
+  .card:hover {
+    border: 1px solid #ccc;
+  }
+  .info {
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+  }
+
+  .info img {
+    width: 328px;
+    height: 182px;
+  }
+
+.conteudo-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto; 
+}
+
+.conteudo-2 h1 {
+    padding: 10px 0;
+}
+
+.conteudo-2 p {
+  margin: 8px;
+}
+
+.negrito {
+  font-weight: bold;
+
+}
+
+
+
+/********************  BREAKPOINTS*/
+@media(max-width:1920px){
+
+    .cabecalho a {
+        font-size: 1em;
+        padding: 5% 2%;
+    }
+}
+
