@@ -151,6 +151,17 @@
   width: 640px;
   height: 427px;
 }
+
+.imagem-1 {
+  display: flex;
+  justify-content: center;
+  margin: 2% 0;
+}
+
+.imagem-1 img {
+  width: 800px;
+  height: 372px;
+}
 .negrito {
   font-weight: bold;
 }
@@ -158,15 +169,8 @@
 /********************  INICIO DO RODAPÉ*/
 
 footer {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  right: 0;
+
   background: #609966;
-  height: auto;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  width: 100vw;
   color: black;
 
 }
@@ -348,12 +352,5 @@ footer {
   color: #fff;
 }
 /********************  BREAKPOINTS*/
-@media(max-width:1920px){
-
-    .cabecalho a {
-        font-size: 1em;
-        padding: 5% 2%;
-    }
-}
 
 
