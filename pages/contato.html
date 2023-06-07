@@ -32,69 +32,105 @@
 
     </header>
 
-    <div>
-        <form action="contatos.html" method="get">
-            <fieldset>
-                <legend>Contatos</legend>
-                <input type="hidden" name="token" value="seus-dados">
+    <body>
+        <div class="container-contato">
+            <div class="form-image">
+                <img src="../imgs/agricultura-sustentavel.png" alt="">
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Entrar em contato</h1>
+                        </div>
+                    </div>
 
-                <div>
-                    <label for="idNome">Nome</label>
-                    <input type="text" name="txtNome" id="idNome" placeholder="Nome completo">
-                </div>
-                <div>
-                    <label for="idGenero">Gênero</label>
-                    <input type="text" name="txtGenero" id="idGenero" placeholder="Gênero">
-                </div>
-                <div>
-                    <label for="idCpf">CPF</label>
-                    <input type="text" name="txtCpf" id="idCpf" placeholder="CPF">
-                </div>
-                <div>
-                    <label for="idCep">CEP</label>
-                    <input type="text" name="txtCep" id="idCep" placeholder="CEP">
-                </div>
-                <div>
-                    <label for="idEndereco">Endereço</label>
-                    <input type="text" name="txtEndereco" id="idEndereco" placeholder="Endereço">
-                </div>
-                <div>
-                    <label for="idComplemento">Complemento</label>
-                    <input type="text" name="txtComplemento" id="idComplemento" placeholder="Complemento">
-                </div>
-                <div>
-                    <label for="idEmail">E-mail</label>
-                    <input type="text" name="txtEmail" id="idEmail" placeholder="E-mail">
-                </div>
-                <div>
-                    <label for="idTelefone">Telefone</label>
-                    <input type="text" name="txtTelefone" id="idTelefone" placeholder="Telefone">
-                </div>
-                <div>
-                    <label for="idNascimento">Data de nascimento</label>
-                    <input type="text" name="txtNascimento" id="idNascimento" placeholder="Nascimento">
-                </div>
-                <div>
-                    <label for="idMensagem">Mensagem</label>
-                    <textarea name="txtMensagem" id="idMensagem" placeholder="Digite sua mensagem aqui"></textarea>
-                </div>
-                <div>
-                    <button type="submit" value="Enviar" id="btnEnviar">Enviar</button>
-                    <button type="reset" value="Limpar" id="btnLimpar">Limpar</button>
-                </div>
-            </fieldset>
-        </form>
-    </div>
-    <footer>
-        <div class="footer-content">
-            <ul class="lista">
-                <li>Amanda Bomfim De Oliveira - RM99741</li>
-                <li>Bruno Ramos da Costa - RM551942</li>
-                <li>Gabriell Hernandes Dassi - RM98361</li>
-                <li>Matheus Augusto Leite - RM99697</li>
-              </ul>
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="firstname">Primeiro Nome</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome"
+                                required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="lastname">Sobrenome</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome"
+                                required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="number">Celular</label>
+                            <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="city">Cidade</label>
+                            <input id="city" type="text" name="city" placeholder="Digite a sua cidade" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="UF">UF</label>
+                            <input id="UF" type="text" name="UF" placeholder="Digite a sua cidade" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="topic">Assunto</label>
+                            <input id="topic" type="text" name="topic" placeholder="Assunto da mensagem" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="message">Mensagem</label>
+                            <input id="message" type="mensagem" name="message" placeholder="Digite aqui sua mensagem"
+                                required>
+                        </div>
+
+                    </div>
+
+                    <div class="topic-inputs">
+                        <div class="topic-title">
+                            <h6>Tópico</h6>
+                        </div>
+
+                        <div class="topic-group">
+                            <div class="topic-input">
+                                <input id="female" type="radio" name="topic">
+                                <label for="female">Agricultura Sustentável</label>
+                            </div>
+
+                            <div class="topic-input">
+                                <input id="male" type="radio" name="topic">
+                                <label for="male">IAG's</label>
+                            </div>
+
+                            <div class="topic-input">
+                                <input id="others" type="radio" name="topic">
+                                <label for="others">Cultivo</label>
+                            </div>
+
+                            <div class="topic-input">
+                                <input id="none" type="radio" name="topic">
+                                <label for="none">Desperdício Alimentar</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="send-button">
+                        <button><a href="#">Enviar</a></button>
+                    </div>
+                </form>
+            </div>
         </div>
-    </footer>
-</body>
+        <footer>
+            <div class="footer-content">
+                <ul class="lista">
+                    <li>Amanda Bomfim De Oliveira - RM99741</li>
+                    <li>Bruno Ramos da Costa - RM551942</li>
+                    <li>Gabriell Hernandes Dassi - RM98361</li>
+                    <li>Matheus Augusto Leite - RM99697</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+
 
 </html>
